@@ -1,0 +1,8 @@
+.*
+!.gitignore
+!.bowerrc
+!public/.htaccess
+
+/vendor/
+composer.lock
+.env

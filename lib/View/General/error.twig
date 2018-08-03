@@ -1,0 +1,17 @@
+{% extends "app.twig" %}
+
+{% set site_title = "Seite nicht gefunden" %}
+{% set header_title = "Die angeforderte Seite existiert nicht" %}
+
+{% block head %}
+    <meta name="robots" content="noindex, noarchive, nosnippet">
+{% endblock %}
+{% block body %}
+
+    <div class="container">
+        <div class="content">
+            <h1>Page not found</h1>
+        </div>
+    </div>
+
+{% endblock %}
